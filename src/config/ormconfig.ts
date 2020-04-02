@@ -2,7 +2,7 @@ import { ConnectionOptions } from 'typeorm';
 
 const config: ConnectionOptions = {
  type: 'postgres',
- url: url,
+ url: 'postgres://bon:1234567890@localhost/journal',
  entities: ['dist/**/*.entity{.ts,.js}'],
  synchronize: false,
  migrationsRun: false,
